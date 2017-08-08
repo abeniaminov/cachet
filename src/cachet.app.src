@@ -1,0 +1,19 @@
+%%%-------------------------------------------------------------------
+%%% @author abeniaminov
+%%% @copyright (C) 2017, <COMPANY>
+%%% @doc
+%%%
+%%% @end
+%%% Created : 08. Авг. 2017 13:51
+%%%-------------------------------------------------------------------
+{application, cachet, [
+    {description, "Simple ETS cache"},
+    {vsn, "1"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {mod, {cachet, []}},
+    {env, []}
+]}.
